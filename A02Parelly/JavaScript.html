@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+        </div>
+        <a class="navbar-brand" href="index.html">Kranthi Kumar</a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">MyApp<span class="sr-only">(current)</span></a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <h2>Description:</h2>
+    <h4>
+        Imagine there's a big cube consisting of n^3 small cubes. Calculate, how many small cubes are not visible from outside.</h4>
+    <h4>
+        For example, if we have a cube which has 4 cubes in a row, then the function should return 8 because there are 8 cubes inside our cube (2 cubes in each dimension)
+    </h4><br>
+    <h3>Enter the values below:</h3><br>
+    <table align=center>
+        <tr>
+            <td>Side a:</td>
+            <td><input type="number" name="sidea" id="sidea"></td>
+        </tr>
+        <tr>
+            <td>Side b:</td>
+            <td><input type="number" name="sideb" id="sideb"></td>
+        </tr>
+        <tr>
+            <td> Side c:</td>
+            <td><input type="number" name="sidec" id="sidec"></td>
+        </tr>
+        <tr>
+            <td><button onclick="" id="calculate">click me</button></td>
+        </tr>
+        <tr>
+            <td>The Number of invisible cubes are: </td>
+            <td id="output" align=center></td>
+        </tr>
+    </table><br><br>
+    <p> NOTE: The values of a, b and c should be greater than 2.</p><br><br>
+    <p> Results of the unit tests are available at <a href="test.html" target="_blank">QUnit tests</a>.</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="test.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

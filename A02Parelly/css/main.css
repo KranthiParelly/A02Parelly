@@ -1,0 +1,44 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.cBorder {
+
+  border-radius: 100%;
+}
+
+#mLeft{
+    margin-right: 65%;
+}
+
+#fColor {
+  background-color:#c4c4c4;
+}
+.font{
+     font-family: Roboto,Georgia, 'Times New Roman', Times, serif,sans-serif;
+}
+.hwidth{
+    width: 100%;
+}
+.width{
+  width: 50%;  
+}
+.pad {
+    padding-right: 100px;
+
+    padding-left: 130px;
+}
+.hPad{
+     padding-right: 150px;
+  padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+
